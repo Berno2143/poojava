@@ -8,8 +8,9 @@ public class principal {
 		// TODO Auto-generated method stub
 
 		cuentabancaria cuenta_personal = new cuentabancaria("Bernardino", 1461.14f);
-		cuentabancaria cuenta_secundaria = new cuentabancaria();
-		
+		cuentabancaria cuenta_secundaria = new cuentabancaria("Bernard");
+		//cuenta_secundaria.setSaldo(-1239.76f);
+		//System.out.println(cuenta_secundaria.getSaldo());
 		/*
 		 * menu cuenta bancaria
 		 * 1. retiro 
